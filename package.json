@@ -5,8 +5,8 @@
   "author": "First Last <first.last@example.com>",
   "main": "server.js",
   "scripts": {
-    "start": "forever start server.js",
-    "stop": "forever stopall"
+    "start": "forever start docker-test-app.js",
+    "stop": "forever stop docker-test-app.js"
   },
   "dependencies": {
     "express": "^4.16.1",
